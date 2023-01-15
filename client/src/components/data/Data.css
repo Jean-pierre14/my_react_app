@@ -1,0 +1,19 @@
+.element {
+  position: relative;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.element p {
+  position: relative;
+  background-color: aliceblue;
+  cursor: pointer;
+  max-width: 500px;
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 0.4rem;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}

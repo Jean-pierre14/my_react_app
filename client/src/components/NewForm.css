@@ -1,0 +1,39 @@
+.card {
+  position: relative;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 0.4rem;
+  background-color: aliceblue;
+}
+.group {
+  display: block;
+  margin: 10px 0;
+}
+.group .input,
+.group label {
+  display: block;
+}
+.group label {
+  margin-bottom: 10px;
+}
+.group .input {
+  outline: none !important;
+  background: none !important;
+  font-weight: 700;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #eee;
+  border-radius: 0.4rem;
+}
+.button {
+  display: inline-block;
+  border: none;
+  border-radius: 0.4rem;
+  outline: none !important;
+  background: none;
+  background-color: blueviolet;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+}
