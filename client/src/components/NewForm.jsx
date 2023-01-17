@@ -6,22 +6,32 @@ const NewForm = () => {
     event.preventDefault();
 
     if (name.trim().length === 0) {
-      console.log("Name is empty...");
+      // console.log("Name is empty...");
+      setError("Name is empty");
     }
+    setError("");
   };
 
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
+  const [error, setError] = useState("");
 
   const handlerName = (event) => {
     setName(event.target.value);
+
+    if (name.trim().length === 0) {
+      setError("Name is empty");
+    }
   };
+
   const handlerAge = (event) => {
     setAge(event.target.value);
   };
+
   return (
     <>
       <div className="card">
+        <div className="error">{error}</div>
         <form onSubmit={handlerSubmit}>
           <div className="group">
             <label htmlFor="name">Name</label>
