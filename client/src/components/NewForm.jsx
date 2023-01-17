@@ -9,7 +9,6 @@ const NewForm = () => {
       // console.log("Name is empty...");
       setError("Name is empty");
     }
-    setError("");
   };
 
   const [name, setName] = useState("");
@@ -21,6 +20,8 @@ const NewForm = () => {
 
     if (name.trim().length === 0) {
       setError("Name is empty");
+    } else {
+      setError("");
     }
   };
 
@@ -31,7 +32,11 @@ const NewForm = () => {
   return (
     <>
       <div className="card">
-        <div className="error">{error}</div>
+        <div
+          className={`error ${error.trim().length !== 0 ? "display" : "none"}`}
+        >
+          {error}
+        </div>
         <form onSubmit={handlerSubmit}>
           <div className="group">
             <label htmlFor="name">Name</label>

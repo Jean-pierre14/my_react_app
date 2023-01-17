@@ -6,6 +6,21 @@
   border-radius: 0.4rem;
   background-color: aliceblue;
 }
+.error {
+  display: block;
+  padding: 20px;
+  border: 2px solid tomato;
+  border-radius: 0.4rem;
+  background-color: rgba(243, 162, 148, 0.533);
+  color: red;
+  /* display: none; */
+}
+.error.display {
+  display: block;
+}
+.error.none {
+  display: none;
+}
 .group {
   display: block;
   margin: 10px 0;
