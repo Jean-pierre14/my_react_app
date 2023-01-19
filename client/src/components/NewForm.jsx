@@ -18,7 +18,7 @@ const NewForm = () => {
   const handlerName = (event) => {
     setName(event.target.value);
 
-    if (name.trim().length === 0) {
+    if (name.trim().length > 0) {
       setError("Name is empty");
     } else {
       setError("");
