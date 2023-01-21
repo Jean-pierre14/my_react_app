@@ -5,7 +5,7 @@ const Info = () => {
     { id: "12de", Icon: "", name: "Men", pourcentange: "45%" },
     { id: "12dx", Icon: "", name: "Women", pourcentange: "55%" },
     { id: "1wd2", Icon: "", name: "Total", pourcentange: "", count: 15 },
-    { id: "12De", Icon: "", name: "Attendance", pourcentange: "90%" },
+    { id: "12De", Icon: "", name: "Attendance", pourcentange: "75%" },
   ];
   return (
     <>

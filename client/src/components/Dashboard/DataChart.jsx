@@ -4,12 +4,14 @@ import "./DataChart.css";
 const DataChart = () => {
   return (
     <div className="wrapper">
-      <h3>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate
-        esse voluptas aperiam consequuntur facilis qui animi saepe, provident
-        magnam unde culpa accusamus libero repellendus iure quo itaque illo
-        officia.
-      </h3>
+      <div className="bg-white">
+        <h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sunt
+          expedita voluptatem, fuga fugiat sint quaerat obcaecati repellat cum
+          quas, natus unde itaque beatae, laudantium eos officia? Accusamus,
+          dolore quibusdam.
+        </h3>
+      </div>
     </div>
   );
 };

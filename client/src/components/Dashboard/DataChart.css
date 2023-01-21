@@ -2,3 +2,8 @@
   max-width: 1300px;
   margin: 0 auto;
 }
+.bg-white {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 20px;
+}
